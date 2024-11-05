@@ -1,0 +1,84 @@
+.home{
+    background-image: url(./images/headerBgMobile.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    
+}    
+
+
+
+@media (min-width: 768px) {
+    .home{
+        background-image: url(./images/headerBgDesktop.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }    
+    .products{
+        background-image: url(./images/body-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+}
+
+.coffee-box-1{
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.6) 33.85%, rgba(0, 0, 0, 0.1) 100%),url(./images/categories/category-left.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.coffee-box-2{
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.6) 33.85%, rgba(0, 0, 0, 0.1) 100%),url(./images/categories/category-right.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.coffee-club{
+    background: linear-gradient(90deg, #10B981 0%, #059669 100%);
+}
+
+.gift-receive{
+    background: linear-gradient(270deg, #FDBA74 0%, #FED7AA 100%);
+}
+
+padd-r{
+    padding-right: 1.5rem;
+}
+
+
+.weblogs-hoverEffect{
+    background: linear-gradient(90deg, #FED7AA 0%, #FDBA74 100%);
+}
+
+@media (max-width: 768px) {
+
+    .services::after{
+        content: '';    
+        background: #D1D5DB;
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        inset: 0;
+        margin: 0 auto;
+    }
+    .services::before{
+        content: '';
+        background: #D1D5DB;
+        width: 90%;
+        height: 1px;
+        position: absolute;
+        inset: 0;
+        margin: auto ;
+    }
+    html.dark .services::after{
+        background: #ffffff11;
+    }
+    html.dark .services::before{
+        background: #ffffff11;
+    }
+}
+.contatct-gradiant:hover{
+    background: linear-gradient(270deg, #FDBA74 0%, #FED7AA 100%);
+    
+}
